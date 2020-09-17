@@ -18,17 +18,17 @@
 	<style>
 		body {
 			visibility: hidden;
-			transition: all 250ms;
+			transition: all 150ms;
 			opacity: 0;
 		}
 	</style>
 	
-	<!---->
+	<!--
 	<script src="<?php echo includes_url(); ?>js/jquery/jquery.js"></script>
 
 	<link rel="preload" as="style" href="<?php echo get_stylesheet_uri(); ?>">
 	<link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap">	
-	
+	-->
 	
 	<?php wp_head(); ?>
 </head>

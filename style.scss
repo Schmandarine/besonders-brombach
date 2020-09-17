@@ -1,0 +1,19 @@
+/*
+Theme Name: Besonders Brombach Developer Theme
+Author: Jan Brombach
+Version: 1.3
+*/
+
+//@import "./scss/variables";
+
+
+@import "./node_modules/slick-carousel/slick/slick.scss";
+@import "./node_modules/slick-carousel/slick/slick-theme.scss";
+@import "./scss/libarys/slick-custom";
+
+@import "./scss/globals";
+
+@import "./scss/site-navigation";
+@import "./scss/site-sections";
+@import "./scss/site-footer";
+

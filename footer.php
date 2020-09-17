@@ -52,7 +52,6 @@
 			</svg>
 		</div>
 	</div>
-
 	<div class="fixed-mobile-meta-contact d-flex d-md-none">
 		<div class="meta-contact-icon">
 			<svg id="chat-icon" version="1.1" viewBox="0 0 150 150">
@@ -85,7 +84,6 @@
 			</svg>
 		</div>
 	</div>
-
 	<div class="fixed-scroll-top" >
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 39">
 			<path fill="#fff" d="M17.1 0L0 9.9v19.7l17.1 9.9 17.1-9.9V9.9z"/>
@@ -101,11 +99,10 @@
 
 <?php wp_footer(); ?>
 
-
+<!--
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
-<!--<link rel="stylesheet" type="text/css" href="<?php echo includes_url(); ?>/css/dist/block-library/style.min.css">-->
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<!--<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap">-->
+<link rel="stylesheet" type="text/css" href="<?php echo includes_url(); ?>/css/dist/block-library/style.min.css">
+-->
 
 <script>
 var controller = new ScrollMagic.Controller();

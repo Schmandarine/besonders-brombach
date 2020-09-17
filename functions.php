@@ -145,13 +145,10 @@ add_action( 'widgets_init', 'besonders_brombach_widgets_init' );
 function besonders_brombach_scripts() {
 
 	wp_style_add_data( 'besonders-brombach-style', 'rtl', 'replace' );
-	wp_enqueue_style( 'besonders-brombach-googlefonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap' );
-	//wp_enqueue_style( 'besonders-brombach-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css' );
-
 
 	wp_enqueue_script( 'besonders-brombach-main-slick', get_template_directory_uri() . '/node_modules/slick-carousel/slick/slick.min.js', array( ), '' , true );
 
-	wp_enqueue_script( 'jquery-scripts', get_template_directory_uri() . '/js/jquery-scripts.js', array(  ), '' , true );
+	wp_enqueue_script( 'jquery-scripts', get_template_directory_uri() . '/js/jquery-scripts.js', array( 'jquery' ), '' , true );
 
 	wp_enqueue_script( 'besonders-brombach-main-gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js', array(  ), '' , true );
 	
