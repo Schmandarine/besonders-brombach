@@ -36,7 +36,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-
+<h1>Is it connected???</h1>
 	<header id="masthead" class="site-header subpage-header">
 		<div class="site-navigation-wrapper" data-visibility="hidden">
 			<div class="site-navigation-container">
